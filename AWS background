@@ -50,3 +50,6 @@ Exploring AWS Services:
 
 You discovered how to use the AWS Search Bar to find various services.
 Key services like Billing and Cost Management help manage and optimize your AWS costs, S3 for storage, and CloudFront for content delivery.
+
+What is one of the primary benefits of using AWS Migration Hub in a cloud migration project?
+tracks mirgration accross multiple AWS services
