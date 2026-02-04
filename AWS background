@@ -53,3 +53,63 @@ Key services like Billing and Cost Management help manage and optimize your AWS 
 
 What is one of the primary benefits of using AWS Migration Hub in a cloud migration project?
 tracks mirgration accross multiple AWS services.
+
+Fixed Costs vs. Variable Costs: Traditional on-premises environments incur significant fixed costs, such as hardware, data centers, and maintenance. In contrast, AWS operates on a variable cost model, where you only pay for the resources you use, leading to greater cost efficiency.
+
+Licensing Strategies: AWS allows you to Bring Your Own License (BYOL) or use included licenses. BYOL lets you apply existing licenses to AWS infrastructure, which can be cost-effective. Included licenses bundle software licensing with AWS services, simplifying management.
+
+Rightsizing: This involves adjusting resources to match actual demand. AWS makes it easy to resize instances or storage based on usage patterns, ensuring you’re not overpaying for unused capacity.
+
+Automation: Tools like AWS CloudFormation automate the setup and management of cloud resources, reducing operational costs and minimizing human error.
+
+Managed Services: AWS offers services like Amazon RDS, AWS Lambda, and Amazon S3, which handle infrastructure management, reducing operational overhead and allowing you to focus on core business activities.
+
+Managed Services: AWS offers services like Amazon RDS, AWS Lambda, and Amazon S3, which handle infrastructure management, reducing operational overhead and allowing you to focus on core business activities.
+
+Understanding AWS connectivity options
+You are working as a network engineer for a mid-sized company that is migrating its on-premises data center to AWS. The company needs to securely connect its on-premises network to AWS. Additionally, they have mission-critical applications that demand a high-bandwidth, low-latency connection to ensure fast and reliable data transfer. Security and performance are the top priorities for this connection.
+
+Which connectivity option should the company choose to securely connect its on-premises network to AWS? AWS Direct Connect
+
+Excellent choice! AWS Direct Connect offers a high-bandwidth, low-latency connection, ideal for mission-critical applications that require fast and secure data transfer between your on-premises data center and AWS. This dedicated connection ensures both the security and performance needed for your business operations.
+
+Exercise
+Choose the best connectivity tool
+You are a cloud architect at a company that is expanding its cloud infrastructure. Your team has been tasked with deploying, managing, and monitoring various AWS resources, ranging from EC2 instances to S3 buckets. However, with so many tools available—APIs, SDKs, the AWS Management Console, and Infrastructure as code (IaC)—your team needs to decide which tool to use for each specific task.
+
+
+Great job! You've successfully matched the right AWS tools to the tasks at hand. This exercise highlights the importance of selecting the appropriate method for managing cloud resources, whether it's for quick manual tasks, automated programmatic control, or consistent infrastructure deployment using Infrastructure as Code. Keep these best practices in mind as you continue to build and manage robust cloud environments!
+
+Understanding the global architecture of AWS
+You are tasked with designing a highly available web application that serves global users. The application must minimize downtime and deliver content with low latency. Which approach best meets these requirements?
+
+Congratulations! You've selected the best approach to ensure both high availability and low latency for your global web application. By deploying across multiple AWS Regions and utilizing edge locations, you've created a robust and efficient architecture that can withstand regional failures and provide fast, reliable access to users worldwide.
+
+Using server vs serverless solutions
+You are a solutions architect tasked with optimizing the infrastructure for various workloads in a cloud environment. Your goal is to determine whether a server-based or serverless approach is best suited for each scenario. Understanding when to use a server-based architecture versus serverless architecture is crucial for balancing performance, scalability, and cost-efficiency.
+
+Excellent work! You've accurately classified the workloads, showing a clear understanding of when to use server-based versus serverless solutions in AWS. This skill is key to optimizing performance, scalability, and cost-effectiveness in cloud architectures.
+
+Understanding AWS Lambda scaling and automation
+Which statement best describes how AWS Lambda manages scaling and infrastructure?
+
+Correct! AWS Lambda automatically handles scaling, automation, and server management without requiring direct user control.
+Excellent choice! S3 Glacier is perfect for storing archival financial records that require infrequent access but need to be retrievable within hours. You've successfully optimized storage costs and ensured data availability.
+
+Good job! You've accurately matched the use cases with the appropriate AWS database types. This exercise highlights the significance of choosing the right database solution—whether it's for structured relational data, flexible NoSQL storage, or fast, memory-based access. Remember these key distinctions as you continue to design and manage efficient data-driven applications in the cloud!
+
+A database use case
+Your company needs to deploy a structured database for a new application. The database should be easy to manage and scale without worrying about the underlying infrastructure. Additionally, the application requires high availability and automatic backups. Which database solution should you choose?
+
+Correct! Amazon RDS is a managed database service that handles all the infrastructure management, including scaling, backups, and high availability.
+
+Which of the following actions can you perform when managing an Amazon S3 bucket?
+
+Correct! Amazon S3 allows you to create, upload, and manage files while configuring features like versioning, permissions, and storage classes
+
+S3 storage classes
+You are a Solutions Architect for a company transitioning its on-premises archival data storage to Amazon S3. The company stores a large volume of financial records that are rarely accessed but must be retained for regulatory purposes. When access is required, the data should be available within a few hours. The company is looking to minimize storage costs while ensuring that the data is highly durable and can be retrieved when needed.
+
+Which Amazon S3 storage class would you recommend for storing these rarely accessed financial records to minimize cost while ensuring durability and retrieval within a few hours?
+
+
